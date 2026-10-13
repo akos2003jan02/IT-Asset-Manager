@@ -20,10 +20,10 @@ jobs:
         dotnet-version: '10.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore IT.Asset.Manager/IT.Asset.Manager.slnx
 
     - name: Build solution
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build IT.Asset.Manager/IT.Asset.Manager.slnx --no-restore --configuration Release
 
     - name: Run xUnit tests
-      run: dotnet test --no-build --configuration Release --verbosity normal --logger "trx;LogFileName=test-results.trx"
+      run: dotnet test IT.Asset.Manager.Tests/IT.Asset.Manager.Tests.csproj --configuration Release --verbosity normal
