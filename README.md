@@ -1,4 +1,3 @@
-[![Build and Test](https://github.com/akos2003jan02/IT-Asset-Manager/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/akos2003jan02/IT-Asset-Manager/actions/workflows/build-and-test.yml)
 # 💻 IT Asset Manager
 
 [![Build and Test](https://github.com/akos2003jan02/IT-Asset-Manager/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/akos2003jan02/IT-Asset-Manager/actions/workflows/build-and-test.yml)
