@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../IT.Asset.Manager.Tests/IT.Asset.Manager.Tests.csproj" Id="1bb716cb-f8a1-4263-9b74-d0633e0b53bd" />
+  <Project Path="IT.Asset.Manager.csproj" />
+</Solution>
